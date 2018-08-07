@@ -1,0 +1,23 @@
+{
+  "name": "lazyload-es2015-webpack-test",
+  "version": "1.0.0",
+  "description": "Test LazyLoad in WebPack build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verlok/lazyload-es2015-webpack-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verlok/lazyload-es2015-webpack-test/issues"
+  },
+  "homepage": "https://github.com/verlok/lazyload-es2015-webpack-test#readme",
+  "devDependencies": {
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
