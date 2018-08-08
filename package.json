@@ -23,6 +23,6 @@
 	},
 	"dependencies": {
 		"lodash": "^4.17.10",
-		"vanilla-lazyload": "^8.14.0"
+		"vanilla-lazyload": "^8.15.0"
 	}
 }
