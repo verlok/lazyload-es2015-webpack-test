@@ -35,7 +35,7 @@ Configure the `build` script in your `package.json` like the following:
 {
 	"scripts": {
 		"build": "webpack"
-    }
+	}
 }
 ```
 
