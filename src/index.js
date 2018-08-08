@@ -1,9 +1,3 @@
-import _ from "lodash";
+import lazyLoadInit from "./lazyload-init";
 
-function component() {
-	let element = document.createElement("div");
-	element.innerHTML = _.join(["Hello", "webpack"], " ");
-	return element;
-}
-
-document.body.appendChild(component());
+lazyLoadInit();
