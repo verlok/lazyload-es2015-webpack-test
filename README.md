@@ -27,6 +27,24 @@ const pageLazyLoad = new LazyLoad(lazyLoadOptions);
 
 See [lazyload-init.js](src/lazyload-init.js) for an example, or go to [LazyLoad's readme file](https://github.com/verlok/lazyload/blob/master/README.md) for documentation.
 
-## Demo
+## Build
 
-For a demo, clone the repo and open `dist/index.html`.
+Configure the `build` script in your `package.json` like the following:
+
+```json
+{
+	"scripts": {
+		"build": "webpack"
+    }
+}
+```
+
+Then in your terminal, run:
+
+```
+npm run build
+```
+
+## Result
+
+To see the result, open the `dist/index.html` file.
