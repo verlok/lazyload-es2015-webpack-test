@@ -1,6 +1,6 @@
 # lazyload-es2015-webpack-test
 
-LazyLoad in a WebPack build.
+Test usage of LazyLoad as es2015 module in a WebPack build.
 
 ## Installation
 
@@ -39,7 +39,7 @@ Configure the `build` script in your `package.json` like the following:
 }
 ```
 
-Then in your terminal, run:
+Then, in your terminal, run:
 
 ```
 npm run build
