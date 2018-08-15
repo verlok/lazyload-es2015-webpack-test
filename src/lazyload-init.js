@@ -1,4 +1,4 @@
-import LazyLoad from "vanilla-lazyload";
+const LazyLoad = require("vanilla-lazyload");
 
 const logEvent = (eventName, element) => {
 	console.log(
@@ -32,6 +32,8 @@ const createLazyLoadInstance = () => {
 	return new LazyLoad(lazyLoadOptions);
 };
 
-export default () => {
+const lazyLoadInit = () => {
 	document.addEventListener("DOMContentLoaded", createLazyLoadInstance);
 };
+
+module.exports = lazyLoadInit;

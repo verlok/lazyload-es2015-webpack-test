@@ -1,3 +1,3 @@
-import lazyLoadInit from "./lazyload-init";
+const lazyLoadInit = require("./lazyload-init");
 
 lazyLoadInit();
