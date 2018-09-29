@@ -5,7 +5,8 @@
 	"private": true,
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "webpack"
+		"buildProd": "webpack --mode=production",
+		"buildDev": "webpack --mode=development"
 	},
 	"repository": {
 		"type": "git",
@@ -23,6 +24,6 @@
 	},
 	"dependencies": {
 		"lodash": "^4.17.10",
-		"vanilla-lazyload": "^8.15.0"
+		"vanilla-lazyload": "^8.15.2"
 	}
 }
