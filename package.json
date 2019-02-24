@@ -1,6 +1,6 @@
 {
 	"name": "lazyload-es2015-webpack-test",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "Test LazyLoad in WebPack build",
 	"private": true,
 	"scripts": {
@@ -19,11 +19,10 @@
 	},
 	"homepage": "https://github.com/verlok/lazyload-es2015-webpack-test#readme",
 	"devDependencies": {
-		"webpack": "^4.16.5",
-		"webpack-cli": "^3.1.0"
+		"webpack": "^4.29.5",
+		"webpack-cli": "^3.2.3"
 	},
 	"dependencies": {
-		"lodash": "^4.17.10",
-		"vanilla-lazyload": "^8.15.2"
+		"vanilla-lazyload": "^11.0.0"
 	}
 }
